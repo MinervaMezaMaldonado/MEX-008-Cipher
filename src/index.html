@@ -6,9 +6,74 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+
+    
+ <!--ESTA ES LA PRIMERA PÁGINA, EN DONDE ESTÁN LAS OPCIONES DE LOS BOTONES CIFRAR O DESCIFRAR-->
+
+<section id= "pagina1" class="aparecer">
+
+    <h1> Bienvenido</h1>
+    
+    <h2> ¿Qué deseas hacer?</h2>
+    
+    <button id= "cifrar" > CIFRAR </button>
+    <button id= "descifrar" > DESCIFRAR</button>
+    </section>
+    
+    
+    <!--  OPCIÓN CIFRAR-->
+    
+     <section id= "cifrarinicio" class= "desaparecer">
+     <h1> ¿Qué quieres cifrar?</h1>
+     <!--Caja de texto para meter el texto a cifrar-->
+     <input id="mensajeacifrar" type="text" placeholder="Introduce el mensaje a cifrar">
+    
+     <h2> ¿Qué clave númerica vas a utilizar?</h2>
+     <!--Caja de texto para introducir la clave-->
+     <input id="clave" type="text" placeholder="Introduce la clave numérica">
+     <!--Botón que da a la página final-->
+     <button id="cifralo">CIFRAR </button>
+     <!--Botón que regresa a la página principar-->
+     <button id="paginaprincipal">IR A LA PÁGINA PRINCIPAL </button>
+     </section>
+    
+    
+    <!-- FIN DE LA OPCIÓN CIFRAR-->
+    
+    <section id= "cifradofin" class="desaparecer" >
+    
+    <h2> Tu mensaje ya cifrado es el siguiente</h2>
+    
+    <button id="Quierocifrar">QUIERO CIFRAR OTRO MENSAJE</button>
+    <button id="paginadeinicio"> IR A LA PÁGINA PRINCIPAL</button>
+    </section>
+    
+    <!-- OPCIÓN DESCIFRAR-->
+    
+    <section id="descifradoinicio" class="desaparecer">
+        <h2>¿Qué quieres descifrar?</h2>
+        <input id="mensajedescifrar" type="text" placeholder="Introduce el mensaje a descifrar">
+        <button id="quierodescifrar">DESCIFRAR </button>
+        <button id="regreso">IR A LA PÁGINA PRINCIPAL </button>
+        
+    </section>
+    
+    
+    <!--FIN DE LA OPCIÓN DESCIFRAR-->
+    <section id= "descifradofin" class="desaparecer" >
+        <!--Aquí va el mensaje descifrado-->
+        <h2> Tu mensaje descifrado es el siguiente</h2>
+        <!--Botón quiero volver a descifrar-->
+        <button id="descifrarotro" >QUIERO DESCIFRAR OTRO MENSAJE</button>
+        <!--Botón regresar al menú-->
+        <button id="menu">IR A LA PÁGINA PRINCIPAL</button>
+        </section>
+    
+    
+
+
+
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
