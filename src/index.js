@@ -19,7 +19,8 @@ const iniciocifrado = () => {
     
     
     //BOTÓN "CIFRALO" MUESTRA LA ÚLTIMA PÁGINA DE CIFRAR.
-    //Queda pendiente GUARDA Y MUESTRA EL MENSAJE YA CIFRADO.
+
+    //^^^^^^Queda pendiente GUARDA Y MUESTRA EL MENSAJE YA CIFRADO.
     
     const botoncifralo = () => {
     let mostrarmensajecifrado = document.getElementById("cifradofin");
@@ -33,21 +34,52 @@ const iniciocifrado = () => {
     const finalcifrar = document.getElementById("cifralo");
     finalcifrar.addEventListener("click",botoncifralo);
     
-    
-    
-    
-    //BOTÓN "" REGRESAR A LA PÁGINA ANTERIOR PARA CIFRAR OTRO MENSAJE
-    const regresaracifrar = () => {
-    let mostrarpaginacifrado = document.getElementById("cifradoinicio");
-    let finaldelcifrar = document.getElementById("cifradofin");
-    mostrarpaginacifrado.style.display = "block";
-    finaldelcifrar.style.display = "none";
-    return mostrarpaginacifrado;
+    //PRIMER BOTÓN QUE REGRESA A LA PÁGINA PRINCIPAL
+    const regresoalmenu = () => {
+        let paginadecifradoinicial = document.getElementById("cifrarinicio");
+        let paginadelmenu = document.getElementById ("pagina1");
+        paginadecifradoinicial.style.display = "none";
+        paginadelmenu.style.display = "block";
+        return paginadelmenu;
     }
+     const regresamealmenu = document.getElementById("paginaprincipal");
+     regresamealmenu.addEventListener("click",regresoalmenu);
+
+
+
+    //BOTÓN "QUIEROCIFRAROTRO" REGRESAR A LA PÁGINA ANTERIOR PARA CIFRAR OTRO MENSAJE
+    const regresoacifrar = () => {
+        let paginaregresocifrarinicio = document.getElementById("cifrarinicio");
+        let paginamostrarmensajecifrado = document.getElementById("cifradofin");
+        paginamostrarmensajecifrado.style.display = "none";
+        paginaregresocifrarinicio.style.display = "block";
+        return paginaregresocifrarinicio;
+    }   
     //AQUÍ SE LLAMA LA FUNCIÓN PARA QUE EL BOTÓN EJECUTE EL RETORNO DE PÁGINA
-    //SE LLAMA AL BOTÓN 
-    
-    
+    //SE LLAMA AL BOTÓN QUIEROCIFRAR
+    const regresar = document.getElementById("Quierocifrar");
+    regresar.addEventListener("click", regresoacifrar);
+
+
+
+
+    //BOTÓN REGRESO A LA PÁGINA PRINCIPAL
+    const regresarmenu = () => { 
+        let regresopagina1 = document.getElementById("pagina1");
+        let paginafinalcifrar = document.getElementById ("cifradofin");
+        paginafinalcifrar.style.display = "none";
+        regresopagina1.style.display = "block";
+        return regresopagina1;
+    }
+    const menuprincipal = document.getElementById("paginadeinicio");
+    menuprincipal.addEventListener("click", regresarmenu);
+
+
+
+
+
+
+
     
     //BOTÓN DESCIFRADO
     
@@ -65,5 +97,55 @@ const iniciocifrado = () => {
         mostrardescifrar.addEventListener("click", iniciodescifrado);
         
     
-        
+   //BOTÓN PARA DESCIFRAR AL INTRODUCIR EL TEXTO DESEADO
+   const quierodescifrarlo = () => {
+       let paginainiciodescifrar = document.getElementById("descifradoinicio");
+       let paginafindescifrado = document.getElementById("descifradofin");
+       paginainiciodescifrar.style.display = "none";
+       paginafindescifrado.style.display ="block";
+       return paginafindescifrado;
+   }
+   const vamosadescifrar = document.getElementById("quierodescifrar");
+   vamosadescifrar.addEventListener("click", quierodescifrarlo);
+
+   //PRIMER BOTÓN IR A LA PÁGINA PRINCIPAL
+   const vamosalasopciones= () => {
+       let paginaprincipalmenu = document.getElementById("pagina1");
+       let paginainiciodescifrado = document.getElementById("descifradoinicio");
+       paginainiciodescifrado.style.display ="none";
+       paginaprincipalmenu.style.display = "block";
+       return  paginaprincipalmenu;
+
+   }
+
+   const principal = document.getElementById ("regreso");
+   principal.addEventListener("click", vamosalasopciones);
+
+
+
+   //BOTÓN PARA DESCIFRAR OTRO MENSAJE 
+
+   const quierodescifrarotro = () => {
+       let ultimapaginadescifrado = document.getElementById("descifradofin");
+       let primerapaginadescifrar = document.getElementById("descifradoinicio");
+       ultimapaginadescifrado.style.display = "none";
+       primerapaginadescifrar.style.display = "block";
+       return primerapaginadescifrar;
+   }
+   const vamosadescifrarnuevamente = document.getElementById("descifrarotro");
+   vamosadescifrarnuevamente.addEventListener("click", quierodescifrarotro);
     
+
+   //BOTÓN QUIERO REGRESAR A LA PÁGINA PRINCIPAL
+    const paginainicial = () => {
+        let paginafin = document.getElementById("descifradofin");
+        let paginaunicainicio = document.getElementById("pagina1");
+        paginafin.style.display = "none";
+        paginaunicainicio.style.display ="block";
+        return paginaunicainicio;
+    }
+    const paginaprincipio = document.getElementById("menu");
+    paginaprincipio.addEventListener("click", paginainicial);
+
+
+
