@@ -1,3 +1,13 @@
+# MENSAJERÍA SECRETA PARA PAREJAS :love_letter: :iphone: :closed_lock_with_key: 
+
+El presente proyecto tratará de una página web dinámica con la temática de la mensajería secreta para parejas, lo cual consiste en que los usuarios (enamorados) podrán escribir los mensajes que quieran a su novi@ de manera segura, es decir al texto se le podrá poner una clave númerica (1,2, 3, etc..).
+
+para poder  mandar mensajes secretos 
+ entre las parejas románticas.Para hacer más novedosa se retomará la práctica del cifrado César,lo que indica que el mensaje que queramos escribir o dar tendrá una clave que solo los enamorados sabrán para guardar sus más intimos secretos.
+
+
+
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
