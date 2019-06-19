@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
+    <link href="https://fonts.googleapis.com/css?family=B612+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -43,6 +44,7 @@
     <section id= "cifradofin" class="desaparecer" >
     
     <h2> Tu mensaje ya cifrado es el siguiente</h2>
+    <p id = "mensajecifrado">  </p>
     
     <button id="Quierocifrar">QUIERO CIFRAR OTRO MENSAJE</button>
     <button id="paginadeinicio"> IR A LA PÁGINA PRINCIPAL</button>
@@ -53,6 +55,7 @@
     <section id="descifradoinicio" class="desaparecer">
         <h2>¿Qué quieres descifrar?</h2>
         <input id="mensajedescifrar" type="text" placeholder="Introduce el mensaje a descifrar">
+        <input id="clavenumerica" type= "text" placeholder="Introduce su clave númerica">
         <button id="quierodescifrar">DESCIFRAR </button>
         <button id="regreso">IR A LA PÁGINA PRINCIPAL </button>
         
@@ -63,6 +66,7 @@
     <section id= "descifradofin" class="desaparecer" >
         <!--Aquí va el mensaje descifrado-->
         <h2> Tu mensaje descifrado es el siguiente</h2>
+        <p id="mensajedescifrado"> </p>
         <!--Botón quiero volver a descifrar-->
         <button id="descifrarotro" >QUIERO DESCIFRAR OTRO MENSAJE</button>
         <!--Botón regresar al menú-->
