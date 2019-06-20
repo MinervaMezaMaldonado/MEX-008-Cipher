@@ -6,18 +6,19 @@ El presente proyecto tratará de una página web dinámica con la temática "Men
 Retomando así la práctica del cifrado César con la cual van a cifrar sus secretos más intimos.
 Por otra parte también podrán descifrar ese mensaje misterioso que su pareja ha cifrado de manera personalizada, esto se logra con solo proporcionar el texto cifrado y la clave correspondiente.
 
-Proceso
+# Proceso
 Para la creación de "Posdata:", se retomo una necesidad para poder aplicar cifrado Cesár como fue "Mensajería secreta para parejas".
 Lo primero que se realizó fue cuestionar a las personas enamoradas si esta web sería útil en su vida, los cuestionados mencionaron que sería de gran ayuda por que en ocasiones no saben si sus mensajes son seguros o si en algún momento alguien puede robar información de su pareja con solo checar sus mensajes.
 Con esta página web dinámica se resulven ese tipo de problemas por que gracias a que se puede codificar sus textos con un número de clave que solo estas dos personas van a tener.
 
-¿Cuáles fueron las decisiones para el diseño?
+
+# ¿Cuáles fueron las decisiones para el diseño?
 Se hicieron pruebas con los usuarios para ver si entendían completamente la idea del proyecto con el prototipo de prueba, se hicieron mejoras para que la página web de "Posdata:" no estuviera tan saturada de información, para que fuera sencilla de utilizar.
 
-¿A qué usuarios va dirigido?
+# ¿A qué usuarios va dirigido?
 A las parejas sentimentales, no hay límite de edad, ni mucho menos reestrinción.
 
-¿Qué necesidad resulve?
+# ¿Qué necesidad resulve?
 La inseguridad que se presenta cuando alguien puede leer nuestros mensajes de nuestro móvil, esta aplicación presenta seguridad en los textos.
 Por que si no se tiene la clave numérica, no se descodifican.
 
