@@ -16,7 +16,7 @@ Con esta página web dinámica se resulven ese tipo de problemas por que gracias
 Se hicieron pruebas con los usuarios para ver si entendían completamente la idea del proyecto con el prototipo de prueba, se hicieron mejoras para que la página web de "Posdata:" no estuviera tan saturada de información, para que fuera sencilla de utilizar.
 
 # ¿A qué usuarios va dirigido?
-A las parejas sentimentales, no hay límite de edad, ni mucho menos reestrinción.
+A las parejas sentimentales, no hay límite de edad, ni mucho menos restrinción.
 
 # ¿Qué necesidad resulve?
 La inseguridad que se presenta cuando alguien puede leer nuestros mensajes de nuestro móvil, esta aplicación presenta seguridad en los textos.
