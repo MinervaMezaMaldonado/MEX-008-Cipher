@@ -1,5 +1,5 @@
 
-#  :&#9825: POSDATA: 
+#   POSDATA: 
  MENSAJERÍA SECRETA PARA PAREJAS :love_letter: :iphone: :closed_lock_with_key: 
 
 El presente proyecto tratará de una página web dinámica con la temática "Mensajería secreta para parejas".La funcionalidad de la página consiste en dar una mejor protección a los mensajes de  los usuarios, en este caso son las parejas sentimentales, estos podrán escribir el texto que quieran enviar de manera segura, debido a que se podrá elegir la clave númerica por ejemplo: 1,2, 3, etc..
