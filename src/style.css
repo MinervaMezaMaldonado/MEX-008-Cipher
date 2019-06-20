@@ -6,12 +6,17 @@
     
 }
 
+h1{
+    font-size: xx-large;
+}
+
+
+
 
 
 body{
     text-align: center; text-decoration-style: neon; color: black;
-    background-image: url("https://i.pinimg.com/564x/c8/46/5d/c8465da2035e47c763f174280b14e524.jpg");
-   
+    background-image: url("https://i.pinimg.com/564x/c8/46/5d/c8465da2035e47c763f174280b14e524.jpg"); 
     font-family: 'B612 Mono', monospace;
 
 } 
