@@ -1,6 +1,6 @@
-# MENSAJERÍA SECRETA PARA PAREJAS :love_letter: :iphone: :closed_lock_with_key: 
+# &#9825 MENSAJERÍA SECRETA PARA PAREJAS :love_letter: :iphone: :closed_lock_with_key: 
 
-<<<<<<< HEAD
+
 El presente proyecto tratará de una página web dinámica con la temática de la mensajería secreta para parejas, lo cual consiste en que los usuarios (enamorados) podrán escribir los mensajes que quieran a su novi@ de manera segura, es decir al texto se le podrá poner una clave númerica (1,2, 3, etc..).
 
 para poder  mandar mensajes secretos 
