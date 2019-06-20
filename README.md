@@ -2,28 +2,24 @@
 #  :&#9825: POSDATA: 
  MENSAJERÍA SECRETA PARA PAREJAS :love_letter: :iphone: :closed_lock_with_key: 
 
-El presente proyecto tratará de una página web dinámica con la temática de la mensajería secreta para parejas, lo cual consiste en que los usuarios (enamorados) podrán escribir los mensajes que quieran a su novi@ de manera segura, es decir al texto se le podrá poner una clave númerica (1,2, 3, etc..).
-
-para poder  mandar mensajes secretos 
- entre las parejas románticas.Para hacer más novedosa se retomará la práctica del cifrado César,lo que indica que el mensaje que queramos escribir o dar tendrá una clave que solo los enamorados sabrán para guardar sus más intimos secretos.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 El presente proyecto tratará de una página web dinámica con la temática "Mensajería secreta para parejas".La funcionalidad de la página consiste en dar una mejor protección a los mensajes de  los usuarios, en este caso son las parejas sentimentales, estos podrán escribir el texto que quieran enviar de manera segura, debido a que se podrá elegir la clave númerica por ejemplo: 1,2, 3, etc..
 Retomando así la práctica del cifrado César con la cual van a cifrar sus secretos más intimos.
 Por otra parte también podrán descifrar ese mensaje misterioso que su pareja ha cifrado de manera personalizada, esto se logra con solo proporcionar el texto cifrado y la clave correspondiente.
 
+Proceso
+Para la creación de "Posdata:", se retomo una necesidad para poder aplicar cifrado Cesár como fue "Mensajería secreta para parejas".
+Lo primero que se realizó fue cuestionar a las personas enamoradas si esta web sería útil en su vida, los cuestionados mencionaron que sería de gran ayuda por que en ocasiones no saben si sus mensajes son seguros o si en algún momento alguien puede robar información de su pareja con solo checar sus mensajes.
+Con esta página web dinámica se resulven ese tipo de problemas por que gracias a que se puede codificar sus textos con un número de clave que solo estas dos personas van a tener.
+
+¿Cuáles fueron las decisiones para el diseño?
+Se hicieron pruebas con los usuarios para ver si entendían completamente la idea del proyecto con el prototipo de prueba, se hicieron mejoras para que la página web de "Posdata:" no estuviera tan saturada de información, para que fuera sencilla de utilizar.
+
+¿A qué usuarios va dirigido?
+A las parejas sentimentales, no hay límite de edad, ni mucho menos reestrinción.
+
+¿Qué necesidad resulve?
+La inseguridad que se presenta cuando alguien puede leer nuestros mensajes de nuestro móvil, esta aplicación presenta seguridad en los textos.
+Por que si no se tiene la clave numérica, no se descodifican.
 
 
 
